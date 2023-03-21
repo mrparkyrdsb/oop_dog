@@ -25,3 +25,11 @@ class Dog:
         ''' This gives Dogs an ability to bark: will output Woof! '''
         print('Woof!')
 
+    def __str__(self):
+        ''' This is a __str__() base override to give our Dog Objects a string equivalent value. This allows our Dogs to type casted to strings.'''
+        return f'A {self.breed} named {self.name} with an age of: {self.age}.'
+
+    def __repr__(self):
+        ''' Making our Dog Objects being representable in other objects. This is done by overriding __repr__()'''
+        return self.__str__()
+        
