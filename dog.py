@@ -5,9 +5,11 @@ class Dog:
     Attributes:
         name: the name for the Dog
         breed: the breed for the Dog
+        age: positive integer age for the Dog
         
     '''
 
-    def __init__(self, given_name, breed):
+    def __init__(self, given_name, breed, age):
         self.name = given_name
         self.breed = breed
+        self.age = age
