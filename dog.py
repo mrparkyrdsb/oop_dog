@@ -10,6 +10,15 @@ class Dog:
     '''
 
     def __init__(self, given_name, breed, age):
+        ''' Initializes the dog by providing its name, breed and age
+
+        Arg:
+            name: the name for the Dog
+            breed: the breed for the Dog
+            age: positive integer age for the Dog
+        '''
         self.name = given_name
         self.breed = breed
         self.age = age
+
+    
