@@ -21,4 +21,7 @@ class Dog:
         self.breed = breed
         self.age = age
 
-    
+    def bark(self):
+        ''' This gives Dogs an ability to bark: will output Woof! '''
+        print('Woof!')
+
