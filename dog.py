@@ -25,6 +25,9 @@ class Dog:
         ''' This gives Dogs an ability to bark: will output Woof! '''
         print('Woof!')
 
+    def eat(self, food):
+        print(f'{self.name} is eating {food}')
+
     def __str__(self):
         ''' This is a __str__() base override to give our Dog Objects a string equivalent value. This allows our Dogs to type casted to strings.'''
         return f'A {self.breed} named {self.name} with an age of: {self.age}.'
